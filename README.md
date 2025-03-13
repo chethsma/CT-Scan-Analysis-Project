@@ -26,7 +26,7 @@ This is the **original DICOM** scan before preprocessing.
 ### **2️⃣ 3-Channel RGB Conversion**
 Since medical images are grayscale, they are **converted into 3-channel format** for deep learning compatibility.
 
-![3-Channel Image](Results/3_channel_image.png)  
+![3-Channel Image](Results/3channelimage.jpg)  
 
 ---
 
