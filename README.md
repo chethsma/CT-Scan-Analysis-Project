@@ -50,5 +50,4 @@ A deep learning model is applied for **organ/tumor segmentation**.
 
 ![Segmented Image](Results/CT_result.png)  
 
-!(images/segmentaion.png)
 ---
