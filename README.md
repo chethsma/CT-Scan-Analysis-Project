@@ -26,7 +26,7 @@ This is the **original DICOM** scan before preprocessing.
 ### **2️⃣ 3-Channel RGB Conversion**
 Since medical images are grayscale, they are **converted into 3-channel format** for deep learning compatibility.
 
-![3-Channel Image](images/3_channel_image.png)  
+![3-Channel Image](Results/3_channel_image.png)  
 
 ---
 
@@ -36,19 +36,19 @@ Different **HU (Hounsfield Unit) ranges** highlight different tissue types.
 #### **a) Band Range 40 - 100 (Soft Tissues)**
 Extracting only soft tissues from the CT scan.
 
-![Soft Tissue Band (40-100)](images/40-100.png)  
+![Soft Tissue Band (40-100)](Results/40-100.png)  
 
 #### **b) Band Range 400 - 1600 (Bones)**
 This range isolates **bone structures** in the CT scan.
 
-![Bone Band (400-1600)](images/400-1600.png)  
+![Bone Band (400-1600)](Results/400-1600.png)  
 
 ---
 
 ### **4️⃣ Final Segmentation Output**
 A deep learning model is applied for **organ/tumor segmentation**.
 
-![Segmented Image](images/CT_result.png)  
+![Segmented Image](Results/CT_result.png)  
 
 !(images/segmentaion.png)
 ---
